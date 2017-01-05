@@ -4,10 +4,7 @@ int sum(int n)
 {
 
 	int res = 0;
-	int y = 0;
-	for (int y = 0; y <= n; y++)
-	{
-		res += y;
-	}
+		
+	res = (n*(1 + n)) / 2;
 	return res;
 }
